@@ -1,4 +1,3 @@
-
 import requests
 
 try:
@@ -11,8 +10,8 @@ try:
             print(f"Resumo: {item['introducao']}")
             print('-'* 40)
     else:
-        print('Erro de requisição')
+        print('ERRO de requisição.')
 except requests.exceptions.ConnectionError:
-    print('Erro de Requisição')
+    print('ERRO de Requisição.')
 except Exception:
-    print('Erro.')
+    print('ERRO.')
