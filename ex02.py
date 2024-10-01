@@ -13,7 +13,7 @@ try:
     else: 
         print('ERRO de requisição')
 except requests.exceptions.ConnectionError:
-    print('ERRO de requisição')
+    print('ERRO de conexão')
 except Exception:
     print('ERRO.')
 
